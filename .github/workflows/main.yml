@@ -2,11 +2,11 @@
 name: Run Bonus Drink
 
 on:
+  workflow_dispatch:
   push:
     branches:
 #      - main
       - my_answer
-  workflow_dispatch:
 
 jobs:
   run-bonus-drink:
